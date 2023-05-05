@@ -1,0 +1,755 @@
+{
+    "nombre": "Nombre Apellido",
+    "idPensum": 962,
+    "ucAprobadas": 0,
+    "materiasAprobadas": 0,
+    "totalMaterias": 60,
+    "optativasAprobadas": false,
+    "materias": [
+        {
+            "id": 1,
+            "semestre": 1,
+            "nombre": "Cálculo I",
+            "uc": 5,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A"
+        },
+        {
+            "id": 2,
+            "semestre": 1,
+            "nombre": "Geometría",
+            "uc": 3,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A"
+        },
+        {
+            "id": 3,
+            "semestre": 1,
+            "nombre": "Algebra Lineal",
+            "uc": 3,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A"
+        },
+        {
+            "id": 4,
+            "semestre": 1,
+            "nombre": "Lenguaje y Habilidades Cognitivas",
+            "uc": 3,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A"
+        },
+        {
+            "id": 5,
+            "semestre": 1,
+            "nombre": "Metodología de la Investigación",
+            "uc": 3,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A"
+        },
+        {
+            "id": 6,
+            "semestre": 1,
+            "nombre": "Orientación",
+            "uc": 2,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A"
+        },
+        { 
+            "id": 7,
+            "semestre": 2,
+            "nombre": "Cálculo II",
+            "uc": 5,
+            "prelacion": true,
+            "prelaciones": [1],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 8,
+            "semestre": 2,
+            "nombre": "Dibujo Computarizado",
+            "uc": 3,
+            "prelacion": true,
+            "prelaciones": [2],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 9,
+            "semestre": 2,
+            "nombre": "Física I",
+            "uc": 5,
+            "prelacion": true,
+            "prelaciones": [1],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 10,
+            "semestre": 2,
+            "nombre": "Lógica",
+            "uc": 2,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 11,
+            "semestre": 2,
+            "nombre": "Introducción a la Programación",
+            "uc": 4,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 12,
+            "semestre": 3,
+            "nombre": "Cálculo III",
+            "uc": 5,
+            "prelacion": true,
+            "prelaciones": [7],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 13,
+            "semestre": 3,
+            "nombre": "Química",
+            "uc": 5,
+            "prelacion": true,
+            "prelaciones": [7],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 14,
+            "semestre": 3,
+            "nombre": "Física II",
+            "uc": 5,
+            "prelacion": true,
+            "prelaciones": [9],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 15,
+            "semestre": 3,
+            "nombre": "Inglés I",
+            "uc": 2,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 16,
+            "semestre": 3,
+            "nombre": "Actividad Física y Salud",
+            "uc": 2,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 17,
+            "semestre": 4,
+            "nombre": "Cálculo IV",
+            "uc": 5,
+            "prelacion": true,
+            "prelaciones": [12],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 18,
+            "semestre": 4,
+            "nombre": "Matemática Discreta",
+            "uc": 5,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 19,
+            "semestre": 4,
+            "nombre": "Programación I",
+            "uc": 5,
+            "prelacion": true,
+            "prelaciones": [11],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 20,
+            "semestre": 4,
+            "nombre": "Inglés II",
+            "uc": 2,
+            "prelacion": true,
+            "prelaciones": [15],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 21,
+            "semestre": 4,
+            "nombre": "Actividades Recreacionales",
+            "uc": 2,
+            "prelacion": true,
+            "prelaciones": [16],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 22,
+            "semestre": 5,
+            "nombre": "Desarrollo Sustentable",
+            "uc": 3,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 23,
+            "semestre": 5,
+            "nombre": "Estadística",
+            "uc": 3,
+            "prelacion": true,
+            "prelaciones": [12],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 24,
+            "semestre": 5,
+            "nombre": "Programación II",
+            "uc": 5,
+            "prelacion": true,
+            "prelaciones": [18,19],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 25,
+            "semestre": 5,
+            "nombre": "Inglés III",
+            "uc": 2,
+            "prelacion": true,
+            "prelaciones": [20],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 26,
+            "semestre": 5,
+            "nombre": "Hardware de Computadora",
+            "uc": 3,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 27,
+            "semestre": 5,
+            "nombre": "Sistemas Operativos",
+            "uc": 3,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 28,
+            "semestre": 6,
+            "nombre": "Calidad y Productividad",
+            "uc": 3,
+            "prelacion": true,
+            "prelaciones": [23],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 29,
+            "semestre": 6,
+            "nombre": "Base de Datos I",
+            "uc": 5,
+            "prelacion": true,
+            "prelaciones": [24],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 30,
+            "semestre": 6,
+            "nombre": "Programación III",
+            "uc": 5,
+            "prelacion": true,
+            "prelaciones": [24],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 31,
+            "semestre": 6,
+            "nombre": "Inglés IV",
+            "uc": 2,
+            "prelacion": true,
+            "prelaciones": [25],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 32,
+            "semestre": 6,
+            "nombre": "Gestión de Proyectos Informáticos",
+            "uc": 4,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 33,
+            "semestre": 7,
+            "nombre": "Base de Datos II",
+            "uc": 5,
+            "prelacion": true,
+            "prelaciones": [29],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 34,
+            "semestre": 7,
+            "nombre": "Teoría General de Sistemas",
+            "uc": 4,
+            "prelacion": true,
+            "prelaciones": [32],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 35,
+            "semestre": 7,
+            "nombre": "Compiladores",
+            "uc": 5,
+            "prelacion": true,
+            "prelaciones": [30],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 36,
+            "semestre": 7,
+            "nombre": "Inglés V",
+            "uc": 2,
+            "prelacion": true,
+            "prelaciones": [31],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 37,
+            "semestre": 7,
+            "nombre": "Ingeniería Económica",
+            "uc": 3,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 38,
+            "semestre": 7,
+            "nombre": "Servicio Comunitario",
+            "uc": 0,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "sc",
+            "condicion": "C1" 
+        },
+        { 
+            "id": 39,
+            "semestre": 8,
+            "nombre": "Redes I",
+            "uc": 5,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "C3" 
+        },
+        { 
+            "id": 40,
+            "semestre": 8,
+            "nombre": "Ingeniería del Software I",
+            "uc": 5,
+            "prelacion": true,
+            "prelaciones": [34],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 41,
+            "semestre": 8,
+            "nombre": "Computación Gráfica",
+            "uc": 5,
+            "prelacion": true,
+            "prelaciones": [35],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 42,
+            "semestre": 8,
+            "nombre": "Electiva I",
+            "uc": 2,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "electiva",
+            "condicion": "C3" 
+        },
+        { 
+            "id": 43,
+            "semestre": 8,
+            "nombre": "Inglés Expresión Oral",
+            "uc": 2,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "optativa",
+            "condicion": "C2" 
+        },
+        { 
+            "id": 44,
+            "semestre": 8,
+            "nombre": "Autoestima y Desarrollo Humano",
+            "uc": 2,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "optativa",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 45,
+            "semestre": 8,
+            "nombre": "Pensamiento Político Universal",
+            "uc": 2,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "optativa",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 46,
+            "semestre": 9,
+            "nombre": "Redes II",
+            "uc": 5,
+            "prelacion": true,
+            "prelaciones": [39],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 47,
+            "semestre": 9,
+            "nombre": "Ingeniería del Software II",
+            "uc": 5,
+            "prelacion": true,
+            "prelaciones": [40],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 48,
+            "semestre": 9,
+            "nombre": "Multimedia y Diseño Web",
+            "uc": 5,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "C4" 
+        },
+        { 
+            "id": 49,
+            "semestre": 9,
+            "nombre": "Electiva II",
+            "uc": 2,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "electiva",
+            "condicion": "C4" 
+        },
+        { 
+            "id": 50,
+            "semestre": 9,
+            "nombre": "Inglés Estratégico Ocupacional",
+            "uc": 2,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "optativa",
+            "condicion": "C2" 
+        },
+        { 
+            "id": 51,
+            "semestre": 9,
+            "nombre": "Competencias Comunicativas",
+            "uc": 2,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "optativa",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 52,
+            "semestre": 9,
+            "nombre": "Teorías Políticas Contemporáneas",
+            "uc": 2,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "optativa",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 53,
+            "semestre": 10,
+            "nombre": "Seminario de Investigación I",
+            "uc": 3,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "C5" 
+        },
+        { 
+            "id": 54,
+            "semestre": 10,
+            "nombre": "Auditoría y Evaluación de Sistemas",
+            "uc": 4,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "C5" 
+        },
+        { 
+            "id": 55,
+            "semestre": 10,
+            "nombre": "Programación Web",
+            "uc": 5,
+            "prelacion": true,
+            "prelaciones": [48],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 56,
+            "semestre": 10,
+            "nombre": "Inteligencia Artificial",
+            "uc": 5,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "C5" 
+        },
+        { 
+            "id": 57,
+            "semestre": 10,
+            "nombre": "Inglés Escritura y Redacción",
+            "uc": 2,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "optativa",
+            "condicion": "C2" 
+        },
+        { 
+            "id": 58,
+            "semestre": 10,
+            "nombre": "Responsabilidad Social Corporativa",
+            "uc": 2,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "optativa",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 59,
+            "semestre": 10,
+            "nombre": "Ideología y Estado",
+            "uc": 2,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "optativa",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 60,
+            "semestre": 11,
+            "nombre": "Seminario de Investigación II",
+            "uc": 3,
+            "prelacion": true,
+            "prelaciones": [53],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 61,
+            "semestre": 11,
+            "nombre": "Simulación de Sistemas",
+            "uc": 5,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "C6" 
+        },
+        { 
+            "id": 62,
+            "semestre": 11,
+            "nombre": "Desarrollo de la Capacidad Emprendedora",
+            "uc": 2,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 63,
+            "semestre": 11,
+            "nombre": "Administración de Centros de Informática",
+            "uc": 4,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "C6" 
+        },
+        { 
+            "id": 64,
+            "semestre": 11,
+            "nombre": "Electiva III",
+            "uc": 2,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "electiva",
+            "condicion": "C6" 
+        },
+        { 
+            "id": 65,
+            "semestre": 11,
+            "nombre": "Ética y Deontología",
+            "uc": 3,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 66,
+            "semestre": 12,
+            "nombre": "Seminario de Investigación III",
+            "uc": 9,
+            "prelacion": true,
+            "prelaciones": [60],
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "N/A" 
+        },
+        { 
+            "id": 67,
+            "semestre": 12,
+            "nombre": "Pasantía Académica",
+            "uc": 10,
+            "prelacion": false,
+            "estatus": "inicial",
+            "tipo": "normal",
+            "condicion": "C7" 
+        }
+    ],
+    "electivas": [
+        {
+            "id": "E1-1",
+            "categoria": "E1",
+            "nombre": "Programación en Software Libre" 
+        },
+        {
+            "id": "E1-2",
+            "categoria": "E1",
+            "nombre": "Seguridad Informática" 
+        },
+        {
+            "id": "E2-1",
+            "categoria": "E2",
+            "nombre": "Programación de Videojuegos" 
+        },
+        {
+            "id": "E2-2",
+            "categoria": "E2",
+            "nombre": "Desarrollo de Aplicaciones en Java para Dispositivos Móviles" 
+        },
+        {
+            "id": "E2-3",
+            "categoria": "E2",
+            "nombre": "Proyectos Web Comerciales" 
+        },
+        {
+            "id": "E3-1",
+            "categoria": "E3",
+            "nombre": "Gestión Tecnológica" 
+        },
+        {
+            "id": "E3-2",
+            "categoria": "E3",
+            "nombre": "Planeación y Gestión de Redes" 
+        },
+        {
+            "id": "E3-3",
+            "categoria": "E3",
+            "nombre": "Tecnologías Web" 
+        },
+        {
+            "id": "E3-4",
+            "categoria": "E3",
+            "nombre": "JavaScript" 
+        }
+    ]
+}
