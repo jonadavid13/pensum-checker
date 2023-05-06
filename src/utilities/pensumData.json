@@ -29,7 +29,7 @@
         {
             "id": 3,
             "semestre": 1,
-            "nombre": "Algebra Lineal",
+            "nombre": "Álgebra Lineal",
             "uc": 3,
             "prelacion": false,
             "estatus": "inicial",

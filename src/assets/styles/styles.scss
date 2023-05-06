@@ -1,3 +1,16 @@
+@use 'Dashboard';
+@use 'MateriaCard';
+
+$standard-p: 1.6rem;
+
 * {
-    margin: 0
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
 }
+
+p,span {
+    font-size: 1.6rem;
+}
+
