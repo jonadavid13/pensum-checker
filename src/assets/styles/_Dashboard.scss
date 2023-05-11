@@ -4,29 +4,44 @@ $green-check: rgb(158, 231, 158);
 $yellow-progress: rgb(250, 208, 130);
 $red-blocked: rgb(216, 138, 138);
 $gray-disabled: rgb(168, 168, 168);
+$header-background: #696969;
 
 .dashboard {
     padding: 0;
     background-color: #dadada;
-    width: max-content;
 
     .header {
-        background-color: #696969;
+        padding: 1rem 2rem;
+        background-color: $header-background;
 
         .header-title {
             font-family: 'Cabin','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-size: 3rem;
             color: rgb(255, 255, 255);
         }
+
+        .user-info {
+            align-items: center;
+
+            .btn {
+                font-size: 1.6rem;
+                box-shadow: .2px .2px .4rem black;
+                margin-left: 2rem;
+            }
+        }
     }
 
     .main-container {
         .pensum-container {
+            margin: 2rem;
+            overflow-x: scroll;
+            overflow-y: hidden;
 
             .columna-semestre {
                 margin: 0 2.5rem;
-
+                
                 .column-header {
+                    border-radius: 2px;
                     width: auto;
                     text-align: center;
                     font-family: 'Cabin','Segoe UI',sans-serif;
@@ -38,12 +53,16 @@ $gray-disabled: rgb(168, 168, 168);
                     margin: 1.2rem 0;
                     background-color: rgb(165, 202, 61);
                     display: flex;
-                    justify-content: end;
+                    justify-content: flex-end;
 
                     .dropdown {
-                        position: absolute;
-                        margin: .4rem;
-                
+                        
+                        .dropdown-toggle {
+                            position: absolute;
+                            right: .4rem;
+                            top: .4rem;
+                        }
+
                         .dropdown-link {
                             font-size: 1.6rem;
                         }
@@ -65,5 +84,27 @@ $gray-disabled: rgb(168, 168, 168);
                 margin-right: 0;
             }
         }
+
+        .pensum-container::-webkit-scrollbar {
+            -webkit-appearance: sliderthumb-horizontal;
+            background: rgb(189, 189, 189);
+            border-radius: 4px;
+        }
+        .pensum-container:-webkit-scrollbar:horizontal {
+            width: 3px;
+        }
+        .pensum-container::-webkit-scrollbar-thumb {
+            background: rgba(68, 68, 68, 0.349);
+            border-radius: 4px;
+        }
+        .pensum-container::-webkit-scrollbar-thumb:hover {
+            background: rgba(68, 68, 68, 0.603);
+        }
+
+        .pensum-container::-webkit-scrollbar {
+            
+        }
+        
     }
+
 }

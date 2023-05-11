@@ -1,9 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
-import { Dropdown } from "react-bootstrap";
-import { handleCheck } from "../pages/Dashboard";
 
-function MateriaCard({nombre, uc, condicion, status, idMateria}){
+function MateriaCard({nombre, uc, condicion, status}){
 
     return(
         <>
