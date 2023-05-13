@@ -1,6 +1,6 @@
 $green-check: rgb(158, 231, 158);
 $yellow-progress: rgb(250, 208, 130);
-$red-blocked: rgb(216, 138, 138);
+$red-blocked: rgb(252, 189, 189);
 $gray-disabled: rgb(168, 168, 168);
 
 .card.materia-card {
@@ -20,7 +20,7 @@ $gray-disabled: rgb(168, 168, 168);
         width: 100%;
         padding: 0 .5rem .4rem .8rem;
     
-        .condicion-badge {
+        .materia-badge {
             font-size: 1.2rem;
             width: fit-content;
             height: fit-content;

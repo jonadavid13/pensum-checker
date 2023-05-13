@@ -23,6 +23,11 @@ $header-background: #696969;
         .user-info {
             align-items: center;
 
+            .contador-uc {
+                background-color: rgb(243, 243, 243);
+                padding: .3rem 1.2rem;
+                border-radius: 3px;
+            }
             .btn {
                 font-size: 1.6rem;
                 box-shadow: .2px .2px .4rem black;
@@ -99,10 +104,6 @@ $header-background: #696969;
         }
         .pensum-container::-webkit-scrollbar-thumb:hover {
             background: rgba(68, 68, 68, 0.603);
-        }
-
-        .pensum-container::-webkit-scrollbar {
-            
         }
         
     }
